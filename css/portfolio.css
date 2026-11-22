@@ -1,3 +1,9 @@
+
+.portfolio {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
 .portfolio-list {
   display: flex;
   flex-direction: column;
@@ -24,6 +30,7 @@
 }
 
 .portfolio-thumb img {
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -74,6 +81,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
   .portfolio-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -87,6 +99,11 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .portfolio-list {
     column-gap: 24px;
     row-gap: 48px;
