@@ -75,6 +75,7 @@
 .footer-subscribe {
   width: 100%;
   max-width: 453px;
+  text-align: center;
 }
 
 .subscribe-form {
@@ -142,7 +143,6 @@
   }
 
   .footer-info {
-    margin-right: 24px;
     text-align: left;
   }
 
@@ -159,9 +159,10 @@
   }
 
   .subscribe-form {
-    flex-direction: row;
-    align-items: center;
-  }
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
 
   .subscribe-input {
     width: 264px;
@@ -179,10 +180,10 @@
   }
 
   .footer-container {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    gap: 0;
-  }
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  column-gap: 0;
+}
 
   .footer-info {
     margin-right: 0;
