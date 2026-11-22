@@ -42,6 +42,7 @@ img {
 }
 
 .container {
+  width: 100%;
   max-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
@@ -119,16 +120,6 @@ img {
   fill: currentColor;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-  }
 
   .section {
     padding-top: 120px;
@@ -139,14 +130,6 @@ img {
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
   fill: #ffffff;
-}
-
-.team-social-link:hover,
-.team-social-link:focus,
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: #31d0aa;
-  color: #ffffff;
 }
 
 .team-social-link:hover,
