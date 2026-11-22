@@ -1,3 +1,4 @@
+
 .features-list {
   display: flex;
   flex-direction: column;
@@ -30,10 +31,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .features-title {
-    text-align: left;
-  }
-}
   .features-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -43,6 +40,10 @@
 
   .features-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .features-title {
+    text-align: left;
   }
 }
 
