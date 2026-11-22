@@ -1,6 +1,7 @@
+
 .footer {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   background-color: #2e2f42;
 }
 
@@ -134,6 +135,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
   .footer-container {
     max-width: 584px;
     flex-direction: row;
@@ -148,10 +154,6 @@
     text-align: left;
   }
 
-  .footer-text {
-    text-align: left;
-  }
-
   .footer-social {
     text-align: left;
   }
@@ -162,6 +164,7 @@
 
   .footer-subscribe {
     max-width: 453px;
+    text-align: left;
   }
 
   .subscribe-form {
@@ -188,7 +191,6 @@
   .footer-container {
     max-width: 1158px;
     flex-wrap: nowrap;
-    justify-content: flex-start;
     column-gap: 0;
   }
 
