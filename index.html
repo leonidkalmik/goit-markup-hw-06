@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,11 +9,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
+  <!-- Header -->
   <header class="header" id="header">
     <div class="container header-container">
       <a class="logo" href="./index.html">Web<span>Studio</span></a>
@@ -45,6 +48,7 @@
   </header>
 
   <main>
+    <!-- Hero -->
     <section class="hero" id="hero">
       <div class="container hero-container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
@@ -52,6 +56,7 @@
       </div>
     </section>
 
+    <!-- Features -->
     <section class="section features" id="features">
       <div class="container">
         <h2 class="visually-hidden">Our features</h2>
@@ -59,7 +64,7 @@
         <ul class="features-list">
           <li class="features-item">
             <div class="features-icon">
-              <svg width="64" height="64">
+              <svg width="64" height="64" aria-hidden="true">
                 <use href="./images/icons.svg#antena"></use>
               </svg>
             </div>
@@ -69,7 +74,7 @@
 
           <li class="features-item">
             <div class="features-icon">
-              <svg width="64" height="64">
+              <svg width="64" height="64" aria-hidden="true">
                 <use href="./images/icons.svg#clock"></use>
               </svg>
             </div>
@@ -79,7 +84,7 @@
 
           <li class="features-item">
             <div class="features-icon">
-              <svg width="64" height="64">
+              <svg width="64" height="64" aria-hidden="true">
                 <use href="./images/icons.svg#diagram"></use>
               </svg>
             </div>
@@ -89,7 +94,7 @@
 
           <li class="features-item">
             <div class="features-icon">
-              <svg width="64" height="64">
+              <svg width="64" height="64" aria-hidden="true">
                 <use href="./images/icons.svg#astronaut"></use>
               </svg>
             </div>
@@ -100,6 +105,7 @@
       </div>
     </section>
 
+    <!-- Team -->
     <section class="section team" id="team">
       <div class="container">
         <h2 class="section-title">Our Team</h2>
@@ -164,6 +170,7 @@
       </div>
     </section>
 
+    <!-- Portfolio -->
     <section class="section portfolio" id="portfolio">
       <div class="container">
         <h2 class="section-title">Our Portfolio</h2>
@@ -263,6 +270,7 @@
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer" id="footer">
     <div class="container footer-container">
       <div class="footer-info">
@@ -287,9 +295,10 @@
         <form class="subscribe-form">
           <label class="visually-hidden" for="subscribe-email">Email</label>
           <input class="subscribe-input" type="email" name="email" id="subscribe-email" placeholder="E-mail" required>
+
           <button class="subscribe-button" type="submit">
             Subscribe
-            <svg width="24" height="24">
+            <svg width="24" height="24" aria-hidden="true">
               <use href="./images/icons.svg#send"></use>
             </svg>
           </button>
@@ -298,10 +307,11 @@
     </div>
   </footer>
 
+  <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobile-menu">
     <div class="mobile-menu-container">
       <a class="mobile-menu-close" href="#header" aria-label="Close menu">
-        <svg width="8" height="8">
+        <svg width="8" height="8" aria-hidden="true">
           <use href="./images/icons.svg#close"></use>
         </svg>
       </a>
@@ -330,12 +340,13 @@
     </div>
   </div>
 
+  <!-- Modal -->
   <input class="visually-hidden" type="checkbox" id="modal-toggle">
 
   <div class="backdrop" id="modal">
     <div class="modal">
       <label class="modal-close-btn" for="modal-toggle" aria-label="Close modal">
-        <svg class="modal-close-icon" width="8" height="8">
+        <svg class="modal-close-icon" width="8" height="8" aria-hidden="true">
           <use href="./images/icons.svg#close"></use>
         </svg>
       </label>
@@ -347,7 +358,7 @@
           <label class="modal-label" for="user-name">Name</label>
           <div class="modal-input-wrap">
             <input class="modal-input" type="text" name="name" id="user-name" required>
-            <svg class="modal-icon" width="18" height="24">
+            <svg class="modal-icon" width="18" height="24" aria-hidden="true">
               <use href="./images/icons.svg#person"></use>
             </svg>
           </div>
@@ -357,7 +368,7 @@
           <label class="modal-label" for="user-phone">Phone</label>
           <div class="modal-input-wrap">
             <input class="modal-input" type="tel" name="phone" id="user-phone" required>
-            <svg class="modal-icon" width="18" height="24">
+            <svg class="modal-icon" width="18" height="24" aria-hidden="true">
               <use href="./images/icons.svg#phone"></use>
             </svg>
           </div>
@@ -367,7 +378,7 @@
           <label class="modal-label" for="user-email">Email</label>
           <div class="modal-input-wrap">
             <input class="modal-input" type="email" name="email" id="user-email" required>
-            <svg class="modal-icon" width="18" height="24">
+            <svg class="modal-icon" width="18" height="24" aria-hidden="true">
               <use href="./images/icons.svg#email"></use>
             </svg>
           </div>
@@ -380,9 +391,10 @@
 
         <div class="modal-checkbox">
           <input class="modal-checkbox-input visually-hidden" type="checkbox" name="privacy" id="user-privacy" value="true" required>
+
           <label class="modal-checkbox-label" for="user-privacy">
             <span class="modal-checkbox-icon">
-              <svg width="10" height="8">
+              <svg width="10" height="8" aria-hidden="true">
                 <use href="./images/icons.svg#check-mark"></use>
               </svg>
             </span>
@@ -397,4 +409,3 @@
   </div>
 </body>
 </html>
-```
