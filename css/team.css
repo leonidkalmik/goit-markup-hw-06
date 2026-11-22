@@ -1,3 +1,4 @@
+
 .team {
   background-color: #f4f4fd;
 }
@@ -53,6 +54,27 @@
   justify-content: center;
   align-items: center;
   gap: 24px;
+}
+
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-link svg {
+  fill: currentColor;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #404bbf;
 }
 
 @media screen and (min-width: 768px) {
