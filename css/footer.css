@@ -1,3 +1,4 @@
+
 .footer {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -159,10 +160,10 @@
   }
 
   .subscribe-form {
-  flex-direction: row;
-  align-items: center;
-  gap: 24px;
-}
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
 
   .subscribe-input {
     width: 264px;
@@ -180,10 +181,10 @@
   }
 
   .footer-container {
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  column-gap: 0;
-}
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    column-gap: 0;
+  }
 
   .footer-info {
     margin-right: 0;
