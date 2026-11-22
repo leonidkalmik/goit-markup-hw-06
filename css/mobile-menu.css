@@ -6,13 +6,17 @@
   width: 24px;
   height: 24px;
   padding: 0;
+  border: none;
+  background-color: transparent;
   color: #2e2f42;
+  cursor: pointer;
 }
 
 .mobile-menu-open svg {
+  display: block;
   width: 24px;
   height: 24px;
-  fill: currentColor;
+  fill: none;
 }
 
 .mobile-menu {
@@ -53,9 +57,12 @@
   width: 24px;
   height: 24px;
   margin-bottom: 24px;
+  padding: 0;
   border: 1px solid #e7e9fc;
   border-radius: 50%;
+  background-color: #ffffff;
   color: #2e2f42;
+  cursor: pointer;
 }
 
 .mobile-menu-close svg {
@@ -112,7 +119,7 @@
   color: #434455;
 }
 
-.mobile-menu-contacts li:first-child a {
+.mobile-menu-contacts li:last-child a {
   color: #4d5ae5;
 }
 
