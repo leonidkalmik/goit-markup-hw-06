@@ -68,4 +68,8 @@
   .hero {
     padding: 188px 0;
   }
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
 }
