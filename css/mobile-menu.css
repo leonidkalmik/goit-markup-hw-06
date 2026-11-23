@@ -119,7 +119,7 @@
   color: #434455;
 }
 
-.mobile-menu-contacts li:last-child a {
+.mobile-menu-contacts li:first-child a {
   color: #4d5ae5;
 }
 
