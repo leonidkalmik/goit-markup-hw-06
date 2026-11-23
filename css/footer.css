@@ -1,9 +1,9 @@
-
 .footer {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   background-color: #2e2f42;
 }
+
 
 .footer-container {
   display: flex;
